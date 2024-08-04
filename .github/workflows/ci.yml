@@ -23,7 +23,7 @@ jobs:
           wasm: true
           plugin: .
           args: |
-            setup
+            install
           working-directory: example
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
