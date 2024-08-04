@@ -37,7 +37,7 @@ use fluentci_pdk::dag;
 
 // ...
 
-dag().call("https://pkg.fluentci.io/mina@v0.1.0?wasm=1", "install", vec![])?;
+dag().call("https://pkg.fluentci.io/mina@v0.1.1?wasm=1", "install", vec![])?;
 ```
 
 ## 📚 Examples
